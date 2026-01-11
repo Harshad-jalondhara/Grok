@@ -5,9 +5,7 @@ import PromptBox from "../components/PromptBox";
 function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <PromptBox />
+      
     </>
   );
 }
