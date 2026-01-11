@@ -1,0 +1,135 @@
+.home-page {
+  min-height: 100vh;
+  padding-top: 100px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.hero-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0 100px;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #71767a;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #333639;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.secondary-btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #4a4e52;
+}
+
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 100px;
+}
+
+.feature-card {
+  padding: 32px;
+  border: 1px solid #1a1a1a;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.feature-card:hover {
+  border-color: #333639;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #71767a;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-section {
+    padding: 40px 20px 60px;
+  }
+
+  .features-section {
+    grid-template-columns: 1fr;
+    padding: 60px 20px 80px;
+    gap: 24px;
+  }
+
+  .home-page {
+    padding-top: 80px;
+  }
+}
