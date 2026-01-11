@@ -1,11 +1,8 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import PromptBox from "../components/PromptBox";
+import "../styles/home.css";
 
 function Home() {
   return (
     <>
-      
     </>
   );
 }
