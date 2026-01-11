@@ -1,0 +1,77 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    /* background-color: rgba(255, 0, 0, 0.298); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-container{
+    /* background-color: rgb(0, 255, 89); */
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.logo img{
+    height: 40px;
+    width: auto;
+}
+
+/* navbar-center */
+
+.navbar-center{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+}
+
+.navbar-center a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    /* border-bottom: 1px solid transparent; */
+    transition: color 0.3s ease-in-out;
+    transition: border-color 0.5 ease;
+    font-weight: 300;
+}
+
+
+.navbar-center a:hover {
+    color: #ffffff;
+    /* border-bottom-color: white; */
+}
+
+/* Button */
+
+.navbar-right button{
+    padding: 10px 16px;
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 300;
+    background: transparent;
+    color: white;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-right button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}

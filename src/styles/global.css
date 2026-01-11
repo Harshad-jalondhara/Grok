@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   color: #fff;
   overflow-x: hidden;
+  height: 2000px;
 }
 
 .container {
