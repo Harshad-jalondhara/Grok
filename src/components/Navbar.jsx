@@ -1,26 +1,17 @@
-import { Link } from "react-router-dom"
-import "../styles/navbar.css";
-
-
 const Navbar = () => {
-  return (
-    <header className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-inner">
-          <div className="logo">
-            <img src="src/assets/images/logo.png" alt="Grok" />
-          </div>
-          <nav className="navbar-center">
-            <Link to="/">Grok</Link>
-            <Link to="/about">About</Link>
-          </nav>
-          <div className="navbar-right">
-            Try Grok
+  
+    return (
+      <header className="bg-pink-400 text-black w-full h-[80px] flex justify-center">
+        <div className="bg-amber-100 w-full max-w-7xl px-[100px]">
+          <div className="pt-0 pb-0 px-[49px]">
+            <nav className="px-10">
+              Home
+            </nav>
           </div>
         </div>
-      </div>
-    </header>
-  );
-}
+      </header>
+    )
+  
+};
 
 export default Navbar;
